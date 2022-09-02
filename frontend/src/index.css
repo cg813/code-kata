@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-mc-purple {
+  background-color: #320043;
+}
+
+.bg-mc-purple-light {
+  background-color: #5b007a;
+}
+
+.text-mc-white {
+  color: #efefef;
+}
+
+.sun {
+  border-right: 1px solid #262626;
+  margin-right: 10px;
+}
+
+.bg-grey {
+  background-color: #efefef;
+}
+
+.text-mc {
+  color: #320043;
+}
+
+.accordion-content {
+  transition: max-height 0.3s ease-out, padding 0.3s ease;
+}
+
+.ensure {
+  border-bottom: 1px solid #efefef;
+}
+
+.unique {
+  top: 32px;
+  right: 32px;
+}
+
+.main {
+  top: 100px;
+  left: (screen - 360px);
+  margin-left: 360px;
+}
+
+.text-9xl {
+  font-size: 8rem;
+}
+
+@media(max-width: 645px) {
+  .text-9xl {
+    font-size: 2.5rem;
+  }
+}
+
+.bg-grad {
+  background-image: linear-gradient(to right bottom, #570460, #4e035a, #460254, #3d024d, #350147, #310144, #2e0042, #2a003f, #2a003f, #2a003f, #2a003f, #2a003f);
+}
